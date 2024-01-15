@@ -11,39 +11,40 @@
 
 
 
-## Installation
+![Launcher creation process](https://github.com/arnold-vianna/aKeylogger/blob/main/demo.gif?raw=true)
+
+## Install required library
 
 ```console
-# clone the repo
-$ git clone https://github.com/sherlock-project/sherlock.git
-
-# change the working directory to akeylogger
-$ cd akeylogger
-
-# install the requirements
-$ python3 -m pip install -r requirements.txt
+pip install pyxhook
 ```
+
 
 ## Usage
 
+* Enter the dir were to save the log. or else the default will be the akeyloger.py dir
+
+* Enter the log name example.txt
+
+* And it will save all keys till you stop the script
+
 ```console
-python keylogger.py -f keylog.txt -e <YourEmail@gmail.com> -d
+python akeylogger.py
 ```
 
-## The action:
-```
--f or --log-file: Specify the log file name and location (default: keylog.txt).
+## Key Features
 
--e or --email: Email address to send logs to.
+* Organized by words
 
--d or --encrypt: Enable log file encryption.
-```
+* Records keystrokes in real-time.
 
-## Keylogger in action:
-```
-The keylogger will start recording key presses. Press Ctrl+C to stop the keylogger.
+* Allows user to specify the log file's directory and name.
 
-Note: If you enabled email functionality, logs will be emailed to the specified address when you stop the keylogger
+* Timestamps log entries for tracking.
+
+* Logs errors for troubleshooting.
+
+
 ```
 
 
