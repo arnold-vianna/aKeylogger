@@ -1,3 +1,10 @@
+#######################################################
+# Author: Arnold Vianna  
+# https://github.com/arnold-vianna
+# https://arnold-vianna.github.io/
+#######################################################
+
+
 import os
 from datetime import datetime
 import pyxhook
